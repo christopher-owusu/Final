@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C.E.D Practice</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="path/to/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+
+    <link rel="stylesheet" type="text/css" href="file:///C:/Users/owusu/Downloads/fontawesome-free-5.14.0-web/css/all.css">
+
+    <link id="mystylesheet" rel="stylesheet" type="text/css" href="light.css">
+</head>
+<body>
+
+    <div id="progressBar"></div>
+    <div class="scrollPath"></div>
+
+    <!-- Navigation Bar -->
+
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <a href="#" target="_blank" class="logo">
+            <img src="/images/badge.png" alt="logo">
+        </a>
+        <a class="navbar-brand pl-4" href="#">C.E.D Practice</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="/main.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/main.html#links">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.bbc.com/news">News</a>
+            </li>
+            </ul>
+        </div>
+      </nav>
+
+      <!-- Frontpage -->
+      <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+          <li data-target="#carouselExampleCaptions" class="animate__delay-6s" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/images/logo.png" class="d-block w-100 h-100" alt="C.E.D Practice">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="animate__animated animate__bounceInDown animate__delay-1s text-black-50">C.E.D Practice</h5>
+              <p class="animate__animated animate__rollIn animate__delay-2s text-black-50">CED Practice is a general programs/projects consulting and management firm registered with the Registrar General’s Department in 2014 and issued with a Certificate of Incorporation to engage in business, research and consultancy services. </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="/images/pexels-ekaterina-bolovtsova-4049960.jpg" class="d-block w-100 h-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="animate__animated animate__bounceInDown animate__delay-1s text-black-50">Consultancy Service</h5>
+              <p class="animate__animated animate__rollIn animate__delay-2s">Project Management, Monitoring and Evaluation Services</p>
+              <p class="animate__animated animate__rotateIn animate__delay-3s"><a href="#">More Info</a></p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="/images/pexels-startup-stock-photos-7075.jpg" class="d-block w-100 h-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="animate__animated animate__pulse animate__delay-1s text-black-50">Digital Marketing</h5>
+              <p class="animate__animated animate__swing animate__delay-2s">Enterprise and Business Development Advisory Services</p>
+              <p class="animate__animated animate__rotateIn animate__delay-3s"><a href="#">More Info</a></p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="/images/pexels-the-coach-space-2977547.jpg" class="d-block w-100 h-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="animate__animated animate__flash animate__delay-1s text-black-50">Commitment</h5>
+              <p class="animate__animated animate__rollIn animate__delay-2s text-black-50">Strong motivation and dedication to deliver exceptional outcomes for consulting assignments.</p>
+                <p class="animate__animated animate__rollIn animate__delay-3s text-black-50">Providing clients with high quality, cost-effective research needed to provide information for planning, decision-making, and strategic undertakings</p>
+              <!--<p class="animate__animated animate__rollIn animate__delay-4s text-black-50">Develop sustainable collaborations with clients through passionate, trustworthy obligations to deliver excellent services that generates sustainable impacts for institutions and society.</p>
+              <p class="animate__animated animate__rollIn animate__delay-5s text-black-50">The pursuit of excellence through the application of technology-driven and innovations to address the needs of clients in the most cost-effective ways.</p> -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!-- Light & Dark Mode -->
+    <div id="box">
+        <button class="btn btn-light" onclick="swapStyle('light.css')">Light Mode</button>
+        <button class="btn btn-dark" onclick="swapStyle('dark.css')">Dark Mode</button>
+      </div>
+
+    <!-- Main Content -->
+    <main>
+        <div class="main-container" id="services">
+        <div class="container-fluid mt-4">
+            <div class="post-wrapper text-center p-4">
+                <div>
+                <div class="post">
+                    <img src="/images/my-life-through-a-lens-bq31L0jQAjU-unsplash.jpg" alt="" class="img-fuild p-4 " width="400" height="300">
+                    <h5 class="p-2 mt-4"> Community Development </h5>
+                    <p class="border-top border-bottom p-3">Community Economic Development Research and Advisory Services</p>
+                </div>
+            </div>
+            <div>
+                <div class="post">
+                    <img src="/images/pexels-pixabay-128867.jpg" alt="" class="img-fuild p-4" width="400" height="300">
+                    <h5 class="p-2 mt-4"> Governance Consulting </h5>
+                    <p class="border-top border-bottom p-3">Local Governance, Social Policy Development and Management Consulting</p>
+                </div>
+            </div>
+            <div>
+                <div class="post">
+                    <img src="/images/pexels-cottonbro-3943716.jpg" alt="" class="img-fuild p-4" width="400" height="300">
+                    <h5 class="p-2 mt-4"> Business Advisory </h5>
+                    <p class="border-top border-bottom p-3">Enterprise and Business Development Advisory Services </p>
+                </div>
+            </div>
+            <div>
+                <div class="post">
+                    <img src="/images/pexels-energepiccom-159888.jpg" alt="" class="img-fuild p-4" width="400" height="300">
+                    <h5 class="p-2 mt-4"> Growth </h5>
+                    <p class="border-top border-bottom p-3">Organizational Development and Performance Improvement Advisory Services </p>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    </main>
+
+    <!-- What we do -->
+    <div class="content-2" id="about">
+        <div class="main-container">
+        <div class="about-wrapper text-center p-4">
+            <div class="about-us m-3">
+                <h2> We help you build a sustainable future </h2>
+                <p>CED Practice is committed to achieving sustainable results through respectable partnerships with clients (individuals, organizations - SMEs, CSO, NGOs), to identify their highest-value opportunities, and apply appropriate strategies to address clients’ most critical development issues to bring about the needed transformations in their industries and businesses.</p>
+                <div class="skills pr-2">
+                    <div>
+                        <h4> Our Vision </h4>
+                        <p>To become a market leader and respected professional services firm recognized by our clients for providing excellent development research, training, program/project management services in Africa. </p>
+                    </div>
+                    <div>
+                        <h4> Our Mission </h4>
+                        <p>To offer our clients with the highest quality professional services through the design and delivery of innovative and responsive development research, training and program/project management solutions for addressing their business concerns. </p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <img src="/images/pexels-ekaterina-bolovtsova-4049960.jpg" alt="#" class="social-image pt-4" height="300">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- What others think about Us -->
+<!-- <div class="content-3">
+    <div class="main-container">
+    <div class="mission pt-3 pb-3">
+        <div>
+            <div class="carousel" id="carouselExample2" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel- active">
+                        <img src="/images/img7.jpg" alt="#" width="300" height="350" class="d-block" id="sec-img">
+                        <div>
+                            <div class="mission-text text-center">
+                                <h5 class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae iure facilis nihil sequi earum laborum cum, eum fuga? Optio quisquam ad voluptatibus ullam voluptas esse omnis aut! Expedita, quaerat aut!</h5>
+                
+                                <div class="text-white p-3">
+                                    <h5>Ama Serwaah</h5>
+                                    <p>( Investment Advisor )</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/images/img5.jpg" alt="#" width="300" height="350" class="d-block" id="sec-img">
+                        <div>
+                            <div class="mission-text text-center">
+                                <h5 class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae iure facilis nihil sequi earum laborum cum, eum fuga? Optio quisquam ad voluptatibus ullam voluptas esse omnis aut! Expedita, quaerat aut!</h5>
+                
+                                <div class="text-white p-3">
+                                    <h5>Danial krew</h5>
+                                    <p>( Stock Brooker )</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div> -->
+
+<section>
+    <!-- Swiper -->
+   <div class="swiper">
+       <div class="swiper-wrapper">
+           <div class="swiper-slide">
+               <div class="testimonialBox">
+                   <img width="70" src="/inverted-removebg-preview.png" class="quote">
+                   <div class="content">
+                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis enim aliquam quia perspiciatis possimus eligendi quaerat tenetur voluptate quidem dicta, maxime sit autem placeat incidunt ea nostrum! Voluptate, explicabo accusantium?</p>
+                       <div class="details">
+                           <div class="imgBx">
+                               <img width="280" src="/jimmy-fermin-bqe0J0b26RQ-unsplash.jpg" alt="modele">
+                           </div>
+                           <h3>Someone Famous<br><Span>Creative Designer</Span></h3>
+                       </div>
+                   </div>
+               </div>
+           </div>
+           <div class="swiper-slide">
+               <div class="testimonialBox">
+                   <img width="70" src="/inverted-removebg-preview.png" class="quote">
+                   <div class="content">
+                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis enim aliquam quia perspiciatis possimus eligendi quaerat tenetur voluptate quidem dicta, maxime sit autem placeat incidunt ea nostrum! Voluptate, explicabo accusantium?</p>
+                       <div class="details">
+                           <div class="imgBx">
+                               <img width="280" src="/jimmy-fermin-bqe0J0b26RQ-unsplash.jpg" alt="modele">
+                           </div>
+                           <h3>Someone Famous<br><Span>Creative Designer</Span></h3>
+                       </div>
+                   </div>
+               </div>
+           </div><div class="swiper-slide">
+               <div class="testimonialBox">
+                   <img width="70" src="/inverted-removebg-preview.png" class="quote">
+                   <div class="content">
+                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis enim aliquam quia perspiciatis possimus eligendi quaerat tenetur voluptate quidem dicta, maxime sit autem placeat incidunt ea nostrum! Voluptate, explicabo accusantium?</p>
+                       <div class="details">
+                           <div class="imgBx">
+                               <img width="280" src="/jimmy-fermin-bqe0J0b26RQ-unsplash.jpg" alt="modele">
+                           </div>
+                           <h3>Someone Famous<br><Span>Creative Designer</Span></h3>
+                       </div>
+                   </div>
+               </div>
+           </div><div class="swiper-slide">
+               <div class="testimonialBox">
+                   <img width="70" src="/inverted-removebg-preview.png" class="quote">
+                   <div class="content">
+                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis enim aliquam quia perspiciatis possimus eligendi quaerat tenetur voluptate quidem dicta, maxime sit autem placeat incidunt ea nostrum! Voluptate, explicabo accusantium?</p>
+                       <div class="details">
+                           <div class="imgBx">
+                               <img width="280" src="/jimmy-fermin-bqe0J0b26RQ-unsplash.jpg" alt="modele">
+                           </div>
+                           <h3>Someone Famous<br><Span>Creative Designer</Span></h3>
+                       </div>
+                   </div>
+               </div>
+           </div><div class="swiper-slide">
+               <div class="testimonialBox">
+                   <img width="70" src="/inverted-removebg-preview.png" class="quote">
+                   <div class="content">
+                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis enim aliquam quia perspiciatis possimus eligendi quaerat tenetur voluptate quidem dicta, maxime sit autem placeat incidunt ea nostrum! Voluptate, explicabo accusantium?</p>
+                       <div class="details">
+                           <div class="imgBx">
+                               <img width="280" src="/jimmy-fermin-bqe0J0b26RQ-unsplash.jpg" alt="modele">
+                           </div>
+                           <h3>Someone Famous<br><Span>Creative Designer</Span></h3>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </div>
+</section>
+
+
+<!-- More about Us -->
+<div class="content-4 border-top border-bottom" id="team">
+    <div class="main-container">
+    <div class="mission-wrapper pt-4 pl-4">
+        <div>
+            <div class="p-4">
+                <div>
+                    <i class="fa-solid fa-circle-question"></i>
+                </div>
+                <div>
+                    <div class="text-center">
+                        <h4>Need Help? Ask Expert to Help You</h4>
+                        <p class="pt-4">Our greatest strengths lie in our understanding of and familiarity with local regulatory, business environment, socio-economic, and political context which combines well with the extensive expertise to provide the appropriate solutions to the varied concerns of our prospective clients.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div>
+                <div class="">
+                    <i class="fa-solid fa-cloud-arrow-down"></i>
+                </div>
+                <div>
+                    <div class="text-center pt-4">
+                        <h4>Download Resource For Your Guidance</h4>
+                        <p class="pt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga velit, unde totam ea id vero, excepturi sit iure ab, possimus incidunt eum saepe molestias minima. Iusto id voluptatibus explicabo ad!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+
+    <!-- footer -->
+    
+    <footer>
+        <div class="content-5" id="links">
+            <div class="main-container">
+            <div class=" p-4">
+                <div class="text-white pt-4">
+                    <h2 class="d-inline-flex"> Subscribe Newsletter Text </h2>
+                    <input type="email" class="p-2 ml-3 border-0" size="50" placeholder="Enter Your Email Address"><button type="submit" class="py-2 btn-info text-dark border-0"> Submit </button>
+                </div>
+                <div class="footer border-top">
+                    <div class="container">
+                        <div class="p-3">
+                            <div class="d-flex flex-column">
+                                <h6 class="text-white">Company</h6>
+                                <a href="/main.html"> Home </a>
+                                <a href="/main.html#about"> About Us </a>
+                                <a href="/main.html#services"> Services </a>
+                            </div>
+                        </div>
+                        <div class="p-3">
+                            <div class="d-flex flex-column">
+                                <h6 class="text-white">Services</h6>
+                                <a href="/main.html#services"> Coomunity Development </a>
+                                <a href="/main.html#services"> Government Consulting </a>
+                                <a href="/main.html#services"> Business Advisory </a>
+                                <a href="/main.html#services"> Growth </a>
+                            </div>
+                        </div>
+                        <div class="p-3">
+                            <div class="d-flex flex-column">
+                                <h6 class="text-white">Contact Us</h6>
+                                <a href="mailto:tandohp@gmail.com"> tandohp@gmail.com </a>
+                                <a href="mailto:ptandoh@gimpa.edu.gh"> ptandoh@gimpa.edu.gh </a>
+                                <a href="tel:+233 247 450 433"> +233 247 450 433 </a>
+                                <a href="https://goo.gl/maps/qibnhyr7p3BToHyW8" target="_blank" rel="noopener noreferrer">
+                                    <span><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                                    <span>No. 2D Andoh Block, GIMPA, <br> P.O.Box WY 2767, Kwabenya - Accra, <br>Ghana</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="p-3">
+                            <h6 class="text-white">Connect With Us</h6>
+                            <ul class="sci ">
+                                <li><a href="https://web.facebook.com/tandohp"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                <li><a href="https://www.instagram.com/tandohp/"><i class="fa-brands fa-instagram"></i></a></li>
+                                <li><a href="https://twitter.com/drTandoh"><i class="fa-brands fa-twitter"></i></a></li>
+                                <li><a href="patrick.tandoh"><i class="fa-brands fa-skype"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="text-center text-black w-100 pt-4">
+                        <p>Copyright &copy; All Right Reserved 2020 Template Design by <span style="color: aqua;"> Wolf </span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+
+    <!-- progressBar -->
+    <script type="text/javascript">
+        let progress = document.getElementById('progressBar');
+        let totalHeight =  document.body.scrollHeight - window.innerHeight;
+        window.onscroll = function(){
+            let progressHeight = (window.pageYOffset / totalHeight) * 100;
+            progress.style.height = progressHeight + "%";
+        }
+    </script>
+
+<!-- Saving your light/dark mode preference in your browser -->
+    <script type="text/javascript">
+        var setTheme = localStorage.getItem('theme')
+        console.log('theme: ', setTheme);
+
+        if (setTheme == null) {
+            swapStyle('light.css')
+        }else {
+            swapStyle(setTheme)
+        }
+
+        function swapStyle(sheet) {
+            document.getElementById('mystylesheet').href = sheet
+            localStorage.setItem('theme', sheet)
+        }
+    </script>
+
+    
+ <!-- Initialize Swiper -->
+ <script type="text/javascript">
+    var swiper = new Swiper('.swiper', {
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 0,
+        stretch: 0,
+        depth: 100,
+        modifier: 2,
+        slideShadows: true,
+      },
+      loop: true,
+    });
+  </script>
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
